@@ -3,11 +3,11 @@ var mongoose = require('mongoose');
 var StudentSchema = new mongoose.Schema({
   username: String,
   password: String,
-  /*name: String,
+  name: String,
   date_of_birth: String,
   phone: String,
   upvotes: {type: Number, default: 0},
-  sponsor: {type: mongoose.Schema.Types.ObjectId, ref:'Sponsor'}*/
+  sponsor: {type: mongoose.Schema.Types.ObjectId, ref:'Sponsor'}
 });
 
 mongoose.model('Student', StudentSchema);
