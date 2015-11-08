@@ -1,8 +1,100 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
+a, a:hover {
   color: #00B7FF;
+  text-decoration: none;
+}
+
+header {
+	padding: 5px 20px 5px 20px;
+
+
+	span#brand {
+		
+
+		img {
+			width: 200px;
+		}
+	}
+
+	nav#nav_header {
+		float: right;
+		text-transform: uppercase;
+
+		li {
+			list-style: none;
+			display: inline;
+			margin: 20px 15px 20px 15px;
+
+			a {
+				text-decoration: none;
+				color: black;
+			}
+
+			a#button_login {
+				cursor: pointer;
+				border-radius: 20px;
+				border: 2px solid #39B54A;
+				color: #39B54A;
+				padding: 8px 16px 8px 16px;
+			}
+		}
+	}
+}
+
+div#jumbotron {
+	width: 100%;
+	margin-top: 50px;
+
+	> div {
+		text-align: center;
+	}
+
+	> div#intro {
+		// display: table-row;
+		height: 500px;
+		
+		span.jumbotron_sections {
+			width: 600px;
+			height: 100%;
+			margin: 0 30px 0 30px;
+			display: inline-block;
+			border-radius: 25px;
+			border: 2px solid #39B54A;
+
+			&.inspire {
+				background: linear-gradient(rgba(0,0,0,0) 70%, #000 95%), url(../images/jumbotron_inspire.jpg);
+				background-size: cover;
+				background-repeat: none;
+				background-position: 80% 0%;
+			}
+
+			&.aspire {
+				background: linear-gradient(rgba(0,0,0,0) 70%, #000 95%), url(../images/jumbotron_aspire.jpg);
+				background-size: cover;
+				background-repeat: none;
+				background-position: 40% 0%;
+			}
+
+			div {
+				position: relative;
+				bottom: -90%;
+				width: 100%;
+
+
+				a {
+					width: 100%;
+					cursor: pointer;
+					border-radius: 20px;
+					border: 2px solid #39B54A;
+					color: white;
+					background-color: #39B54A;
+					padding: 8px 16px 8px 16px;
+				}
+
+			}
+		}
+	}
 }

@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>Talent Fund | Where Aspirers Meet Inspirers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"> -->
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  	<header>
+  		<span id="brand"><img src="../images/TalentFund.png" /></span>
+		<nav id="nav_header">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#featured">Featured</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a id="button_login" href="/login">Log In</a></li>
+			</ul>
+		</nav>
+  	</header>
+
+  	<div id="jumbotron">
+  		<div id="intro">
+			<span class="jumbotron_sections inspire">
+				<div><a>Inspire</a></div>
+			</span>
+			<span class="jumbotron_sections aspire">
+				<div><a>Aspire</a></div>
+			</span>
+  		</div>
+  		<!-- <div>&darr;</div> -->
+  	</div>
+
+	<section id="about">
+		<h3>About</h3>
+		<p>About this company.</p>
+	</section>
+
+	<div id="gallery_preview">
+		<img src="" class="gallery_preview_images" />
+		<img src="" class="gallery_preview_images" />
+		<img src="" class="gallery_preview_images" />
+		<img src="" class="gallery_preview_images" />
+	</div>
+
+	<section id="featured">
+		<h3>Featured</h3>
+		<div class="featured_row">
+			<img src="" class="featured_image" />
+			<div class="featured_content">
+				<h4>Featured Content</h4>
+				<p>About the featured content.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>Footer</footer>
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="javascripts/index.js"></script>
   </body>
 </html>

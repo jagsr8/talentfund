@@ -1,0 +1,78 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a,
+a:hover {
+  color: #00B7FF;
+  text-decoration: none;
+}
+header {
+  padding: 5px 20px 5px 20px;
+}
+header span#brand img {
+  width: 200px;
+}
+header nav#nav_header {
+  float: right;
+  text-transform: uppercase;
+}
+header nav#nav_header li {
+  list-style: none;
+  display: inline;
+  margin: 20px 15px 20px 15px;
+}
+header nav#nav_header li a {
+  text-decoration: none;
+  color: black;
+}
+header nav#nav_header li a#button_login {
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid #39B54A;
+  color: #39B54A;
+  padding: 8px 16px 8px 16px;
+}
+div#jumbotron {
+  width: 100%;
+  margin-top: 50px;
+}
+div#jumbotron > div {
+  text-align: center;
+}
+div#jumbotron > div#intro {
+  height: 500px;
+}
+div#jumbotron > div#intro span.jumbotron_sections {
+  width: 600px;
+  height: 100%;
+  margin: 0 30px 0 30px;
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid #39B54A;
+}
+div#jumbotron > div#intro span.jumbotron_sections.inspire {
+  background: linear-gradient(rgba(0, 0, 0, 0) 70%, #000 95%), url(../images/jumbotron_inspire.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: 80% 0%;
+}
+div#jumbotron > div#intro span.jumbotron_sections.aspire {
+  background: linear-gradient(rgba(0, 0, 0, 0) 70%, #000 95%), url(../images/jumbotron_aspire.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: 40% 0%;
+}
+div#jumbotron > div#intro span.jumbotron_sections div {
+  position: relative;
+  bottom: -85%;
+  width: 100%;
+}
+div#jumbotron > div#intro span.jumbotron_sections div a {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid #39B54A;
+  color: white;
+  background-color: #39B54A;
+  padding: 8px 16px 8px 16px;
+}
